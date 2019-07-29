@@ -1,4 +1,4 @@
-**Google Play web-scraper**
+# **Google Play web-scraper**
 
 My first scraper using selenium. Scraping information and reviews of apps on Google Play market. 
 Reviews are saving to csv file for further exploration. 
