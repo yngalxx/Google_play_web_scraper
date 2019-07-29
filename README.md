@@ -14,6 +14,6 @@ Scraper will print basic information about app and then reviews will save in a c
 I also use a ‘tqdm’ package to have a progress bar and estimated scraping time. 
 Some lines of code are not needed but it was a learning for me and I wanted to try a lot of selenium's functionalities.
 
-## Important:
+### Important:
 
-In csv file one column is named usefulness. Values in it means how many people like this review.
+In csv file one column is named usefulness. Value in a field of this column means how many people like this review.
