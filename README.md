@@ -7,7 +7,7 @@ Reviews are saving to csv file for further exploration.
 
 ![alt text](https://github.com/yngalxx/Web_Scraping/blob/master/Csv_file_preview.png)
 
-### Using: 
+## Using: 
 
 To use scraper, change app’s details page url. Scraper will print basic information about app and then reviews will save in a csv file. 
 I also use a ‘tqdm’ package to have a progress bar and estimated scraping time. 
