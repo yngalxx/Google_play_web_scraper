@@ -9,6 +9,11 @@ Reviews are saving to csv file for further exploration.
 
 ## Using: 
 
-To use scraper, change app’s details page url. Scraper will print basic information about app and then reviews will save in a csv file. 
+To use scraper, change url. It's important that it has to be a url with app’s details view. 
+Scraper will print basic information about app and then reviews will save in a csv file. 
 I also use a ‘tqdm’ package to have a progress bar and estimated scraping time. 
 Some lines of code are not needed but it was a learning for me and I wanted to try a lot of selenium's functionalities.
+
+## Important:
+
+In csv file one column is named usefulness. Values in it means how many people like this review.
