@@ -3,6 +3,7 @@
 My first scraper using selenium. Scraping information and reviews of apps on Google Play market. 
 Reviews are saving to csv file for further exploration. 
 
+Csv file preview:
 ![alt text](https://github.com/yngalxx/Web_Scraping/blob/master/Csv_file_preview.png)
 
 To use scraper, change app’s details page url. Scraper will print basic information about app and then reviews will save in a csv file. 
