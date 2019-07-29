@@ -20,7 +20,7 @@ import csv
 opts = Options()
 browser = Firefox(options=opts)
 
-# Launch a google play page with information about app
+# Maximal page load time
 browser.set_page_load_timeout(100)
 
 # Page has few sec to load, then window will be closed
@@ -67,7 +67,7 @@ download_count = browser.find_element_by_css_selector(
 
 print("\n",
       'Rating: ', rating,"\n",
-      'Ratings Count: ', ratings_count,"\n",
+      'Ratings count: ', ratings_count,"\n",
       'Latest update: ', latest_update,"\n",
       'Current version: ', current_version,"\n",
       'Download count: ', download_count,"\n")
@@ -77,7 +77,7 @@ browser.execute_script("window.scrollBy(0, 800)")
 
 time.sleep(0.5)
 
-# Click to show more review
+# Click to show more reviews
 browser.find_element_by_xpath('/html/body/div[1]/div[4]/c-wiz/div/div[2]/div/div[1]/div/div/div[1]/div[6]/div').click()
 
 time.sleep(0.5)
