@@ -25,7 +25,7 @@ browser.set_page_load_timeout(100)
 
 # Page has few sec to load, then window will be closed
 try:
-    browser.get("here you have to paste a app details page url")
+    browser.get("here, You have to paste url with app's details view")
 
 except Exception as e:
     print(getattr(e, 'message', str(e)))
